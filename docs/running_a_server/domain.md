@@ -63,6 +63,7 @@ To create a DNS SRV record you will head to your registrar or Cloudflare DNS con
 - Once you are there, you will click on add a new DNS record and you will select `SRV`.
 - Then you will proceed to create an identical record to the one above. 
 - You will need to replace the `Port` field with the port that your split server uses
+- Remember to replace the `Target` field with the subdomain or domain that it's pointing to your server IP.
 - The priority and Weight ports can be left at `0`. TTL needs to be in `Auto`.
 
 That's all! Now you should be able to connect to your split server using `survival.example.com`, you no longer need to use the port.
